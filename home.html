@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+   
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-gray position-fixed color-white ">
+          <div class="container ">
+            <button class="navbar-toggler" type="button" data-mdb-collapse-init
+              data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+      
+        <!-- Background image -->
+        <div class="p-5 text-center bg-image" style="
+            background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+            height: 400px;
+          ">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3">Heading</h1>
+                <h4 class="mb-3">Subheading</h4>
+                <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Background image -->
+      </header>
+      <!-- Grid Photo Gallery -->
+<div class="row mt-5 ms-5 me-5">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+  
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Mountains in the Clouds"
+      />
+  
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Boat on Calm Water"
+      />
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Waves at Sea"
+      />
+  
+      <img
+        src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Yosemite National Park"
+      />
+    </div>
+  </div>
+  <!-- Grid Photo Gallery -->
+
+  <!-- Testimonial -->
+<div id="carouselMultiItemExample" data-mdb-carousel-init class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+    <!-- Controls -->
+    <div class="d-flex justify-content-center mb-4">
+      <button class="carousel-control-prev position-relative" type="button"
+        data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next position-relative" type="button"
+        data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Inner -->
+    <div class="carousel-inner py-4">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Anna Deynah</h5>
+              <p>UX Designer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">John Doe</h5>
+              <p>Web Developer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid commodi.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li>
+                  <i class="fas fa-star-half-alt fa-sm"></i>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Maria Kate</h5>
+              <p>Photographer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti atque corrupti.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="far fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">John Doe</h5>
+              <p>UX Designer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Alex Rey</h5>
+              <p>Web Developer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid commodi.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li>
+                  <i class="fas fa-star-half-alt fa-sm"></i>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Maria Kate</h5>
+              <p>Photographer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti atque corrupti.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="far fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Single item -->
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Anna Deynah</h5>
+              <p>UX Designer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id
+                officiis hic tenetur quae quaerat ad velit ab hic tenetur.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">John Doe</h5>
+              <p>Web Developer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid commodi.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li>
+                  <i class="fas fa-star-half-alt fa-sm"></i>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-4 d-none d-lg-block">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp" alt="avatar"
+                style="width: 150px;" />
+              <h5 class="mb-3">Maria Kate</h5>
+              <p>Photographer</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti atque corrupti.
+              </p>
+              <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="fas fa-star fa-sm"></i></li>
+                <li><i class="far fa-star fa-sm"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Inner -->
+  </div>
+  <!-- Testimonial -->
+  <!--responsiv desin-->
+  <div class="container mt-4">
+  <div class="row">
+    <div class="col-6">
+        <img class=" shadow-lg mb-4 h-100 w-50 "
+        src=C:\Users\hp\OneDrive\Desktop\dipa.jpeg alt="avatar"
+        style="width: 150px;" />
+    </div>
+    <div class="col-6">
+        <h1>Welcome Friend,<br>My Name Is<br>Dipa</h1>
+        <p>I Am Dipa Saptal,</p><br>
+                <b><p style="color:brown">A Fronted Developer</p></b>
+                <p>I am a Web desiner I Create responsive Fronted websites</p><p>& Web Applications For Mobile and Web.</p>  
+                <button type="button" class="btn btn-primary">Read More</button>
+    </div>
+  </div>
+  </div>
+<div class="container">
+  <h1 id="head1"></h1>
+  <p style="text-align: center; color:red;" class="p1">Nature Love</p>
+  <img src="https://t4.ftcdn.net/jpg/05/47/97/81/360_F_547978128_vqEEUYBr1vcAwfRAqReZXTYtyawpgLcC.jpg" height="500" width=100%" class="image">
+  <button class="btn btn-primary ms-5 mt-2 bt text-center " onclick="getelem()">Learn More About Image</button>
+</div>
+<script>
+    function getelem()
+    {
+document.getElementById("head1").innerHTML="The word comes from the Latin natura meaning birth.Nature includes many things like weather, organisms, landforms, celestial bodies. Scientists study the way the parts of nature work. Things that have been made by people are said to be man-made or called artifacts."
+        arr1[0].style.color="red"
+        arr1[0].style.backgroundColor="yellow"
+    }
+</script>
+</body>
+</html>
